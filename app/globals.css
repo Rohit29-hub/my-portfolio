@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  user-select: none;
+}
+
+body {
+  background: linear-gradient(-45deg, #7b2cbf, #48bfe3, #0353a4, #9ceaef);
+  width: 100%;
+  max-width: 1366px;
+  overflow-x: hidden;
+  max-height: 100%;
+  margin: 0 auto;
+  background-color: #f9fafb;
+  background-image: linear-gradient(#e5e5e75d 1px, #00000000 0), linear-gradient(90deg, #e5e5e75d 1px, #00000000 0);
+  background-size: 100px 100px;
+}
+
+.makeContainer{
+  width: 95%;
+  margin: 0 auto;
+}
+
+#my-name {
+  font-family: 'KoHo', sans-serif;
+}
+
+#short-desc {
+  font-family: 'KoHo', sans-serif;
+}
+
+#greet-1 {
+  font-family: 'Milonga', sans-serif;
+}
+
+#greet-2 {
+  font-family: 'Milonga', sans-serif;
+}
+
+#description-about-me{
+  font-family:'Kurale',sans-serif;
+}
+
+#hii-img {
+  animation: sayHii 1.8s infinite;
+  display: inline-block;
+  transform-origin: 70% 70%;
+}
+
+@keyframes sayHii {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  10% {
+    transform: rotate(-10deg);
+  }
+
+  20% {
+    transform: rotate(12deg);
+  }
+
+  30% {
+    transform: rotate(-10deg);
+  }
+
+  40% {
+    transform: rotate(9deg);
+  }
+
+  50% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+
+#banner-title{
+  font-family: 'Krono One', sans-serif;
+  animation: move 12s linear infinite;
+}
+
+@keyframes move {
+  0%{
+    transform: translateX(-500px);
+  }
+  50%{
+    transform: translateX(100px);
+  }
+  100%{
+    transform: translateX(-500px);
+  }
+}
+
+.rotate-me{
+  transform: rotate(-22deg);
+}
