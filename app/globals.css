@@ -6,6 +6,10 @@
   user-select: none;
 }
 
+.product-title{
+  font-family: 'Krona One',sans-serif;
+}
+
 body {
   background: linear-gradient(-45deg, #7b2cbf, #48bfe3, #0353a4, #9ceaef);
   width: 100%;

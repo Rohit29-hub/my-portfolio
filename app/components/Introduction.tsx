@@ -6,7 +6,7 @@ import Image from 'next/image'
 import DownLoadButton from './ui/DownLoadButton'
 const Introduction = () => {
     return (
-        <div className='makeContainer w-full h-[70vh] lg:h-screen  sm:mt-10 mt-8'>
+        <div className='makeContainer w-full h-[61vh] lg:h-screen  sm:mt-10 mt-8'>
             <div className='relative w-full h-full'>
                 <div className='absolute left-3 w-auto p-1 h-auto mt-8 sm:mt-0'>
                     <h1 className='sm:text-[9rem] text-[4rem] font-bold text-[#000000d8]' id='greet-1'>Hii all,</h1>
