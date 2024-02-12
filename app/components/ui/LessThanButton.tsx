@@ -1,10 +1,12 @@
 import React from 'react'
 import LessThanIcon from '@/public/less-than.svg'
 import Image from 'next/image'
-const LessThanButton = () => {
+const LessThanButton = ({ goToPrev }: { goToPrev: () => void }) => {
     return (
         <>
-            <Image src={LessThanIcon} width={30} height={30} alt='go-prev' priority/>
+            <button onClick={() => goToPrev()} className='p-2 border border-solid rounded-[100%]'>
+                <Image src={LessThanIcon} width={30} height={30} alt='go-prev' priority />
+            </button>
         </>
     )
 }

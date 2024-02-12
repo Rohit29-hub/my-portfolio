@@ -2,7 +2,7 @@
     {
         "id": "1",
         "title": "Spotify",
-        "description" : "A Spotify clone with complete functionality, developed using Next.js, Node.js, React.js, Express.js, MongoDB, and Tailwind CSS. It replicates the core features of the Spotify platform, enabling users to stream music, create playlists, discover new releases, and manage their music libraries effortlessly.",
+        "description" : "A Spotify clone with complete functionality, developed using Next.js, Node.js, React.js, Express.js, MongoDB, and Tailwind CSS. It replicates the core features of the Spotify platform, create playlists, discover new releases, and manage their music libraries.",
         "technologies" : ["Nextjs","Nodejs","Reactjs","Express","Mongodb","Tailwindcss"],
         "image" : "/spotifyback.png",
         "deploy_url" : ""
@@ -10,7 +10,7 @@
     {
         "id": "2",
         "title": "Crud-App",
-        "description" : "A CRUD application equipped with a Mock API, built using Next.js, React.js, Tailwind CSS, Node.js, JSON Server, It empowers users to perform CRUD operations on data, providing a user-friendly experience within the application, including features such as pagination, search functionality, error handling, and responsive design.",
+        "description" : "A CRUD application equipped with a Mock API, built using Next.js, React.js, Tailwind CSS, Node.js. It empowers users to perform CRUD operations on data, including features such as pagination, search functionality, error handling, and responsive design.",
         "technologies" : ["Nextjs","Reactjs","Tailwindcss","Nodejs","NextUI"],
         "image" : "/crud.jpg",
         "deploy_url" : "https://crud-next-app-ten.vercel.app/"
@@ -18,7 +18,7 @@
     {
         "id": "3",
         "title": "Amazon",
-        "description" : "The Amazon clone with full functionality is a comprehensive e-commerce platform developed using React.js, Next.js, MongoDB, Express.js, Node.js, and Tailwind CSS. It mimics the features of the Amazon website, allowing users to browse products, add them to cart, make purchases, and manage their orders.",
+        "description" : "The Amazon clone with full is a e-commerce platform developed using React.js, Next.js, MongoDB, Express.js, Node.js, and Tailwind CSS. It mimics the features of the Amazon website, add them to cart, make purchases, and manage their orders.",
         "technologies" : ["Reactjs","Nextjs","Mongodb","Expessjs","Nodejs","Tailwindcss"],
         "image" : "/amazonBack.png",
         "deploy_url" : ""
