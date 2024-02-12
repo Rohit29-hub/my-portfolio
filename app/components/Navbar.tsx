@@ -4,8 +4,8 @@ import React from 'react'
 import MenuButton from './ui/MenuButton'
 const Navbar = () => {
   return (
-    <div className='makeContainer w-full h-12 sticky top-2 z-[1059] backdrop-blur-[30px] rounded-[3rem]'>
-        <div className='w-full bg-[#ffffffb7] shadow sm:m-auto m-0 rounded-[3rem] h-full  flex justify-between p-1'>
+    <div className='w-full h-16 sticky top-0 z-[1059] backdrop-blur-[30px] flex items-center'>
+        <div className='makeContainer w-full bg-[#ffffffb7] shadow sm:m-auto m-0 rounded-[3rem] h-12  flex justify-between p-1'>
             <div className='w-auto h-full flex gap-x-2'>
                 <div className='w-10 h-full rounded-[100%] bg-[#333333] overflow-hidden'>
                   <Image src={myLogo} width={100} height={100} priority alt=''/>
