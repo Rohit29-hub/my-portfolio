@@ -10,7 +10,7 @@ import GreaterThanButton from './ui/GreaterThanButton'
 const ProjectView = () => {
     // show the data from api that good techniuqe for features
     return (
-        <div className='w-full h-auto flex flex-col gap-y-10 lg:h-screen mb-2'>
+        <div className='w-full h-auto flex flex-col gap-y-10 lg:h-screen mb-2 mt-12'>
             <div className='px-2 py-2 border-b-2 rouned-2xl bg-white border-t-2 border-solid border-[#000000d8]  flex items-center justify-between'>
                 <h1 className='text-4xl font-medium text-[#000000d8]'>Project</h1>
                 <div className='flex gap-x-2'>
