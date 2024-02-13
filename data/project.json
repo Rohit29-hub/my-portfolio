@@ -22,5 +22,21 @@
         "technologies" : ["Reactjs","Nextjs","Mongodb","Expessjs","Nodejs","Tailwindcss"],
         "image" : "/amazonBack.png",
         "deploy_url" : ""
+    },
+    {
+        "id": "34",
+        "title": "Travel Agency",
+        "description" : "The Amazon clone with full is a e-commerce platform developed using React.js, Next.js, MongoDB, Express.js, Node.js, and Tailwind CSS. It mimics the features of the Amazon website, add them to cart, make purchases, and manage their orders.",
+        "technologies" : ["Reactjs","Nextjs","Mongodb","Expessjs","Nodejs","Tailwindcss"],
+        "image" : "/amazonBack.png",
+        "deploy_url" : ""
+    }, {
+        "id": "38",
+        "title": "Authentication",
+        "description" : "The Amazon clone with full is a e-commerce platform developed using React.js, Next.js, MongoDB, Express.js, Node.js, and Tailwind CSS. It mimics the features of the Amazon website, add them to cart, make purchases, and manage their orders.",
+        "technologies" : ["Reactjs","Nextjs","Mongodb","Expessjs","Nodejs","Tailwindcss"],
+        "image" : "/amazonBack.png",
+        "deploy_url" : ""
     }
+
 ]

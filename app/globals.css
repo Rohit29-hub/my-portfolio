@@ -26,7 +26,13 @@ body {
   width: 95%;
   margin: 0 auto;
 }
-
+.productContainer::-webkit-scrollbar{
+  width: 0px;
+}
+.productContainer::-webkit-scrollbar-thumb{
+  width: 0px;
+  height: 0px;
+}
 #my-name {
   font-family: 'KoHo', sans-serif;
 }
@@ -103,4 +109,15 @@ body {
 
 .rotate-me{
   transform: rotate(-22deg);
+}
+
+.skillTitle{
+  font-family: 'KoHo',sans-serif;
+}
+.educationTitle{
+  font-family: 'KoHo',sans-serif;
+}
+
+.educationText{
+  font-family: 'KoHo',sans-serif;
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import DownLoadButton from './DownLoadButton'
+import {ProjectButtonGithub,ProjectButtonLiveDemo} from './ProjectButton'
 
 interface Props{
     image: string,
@@ -14,20 +14,20 @@ const ProjectCard = ({image,title,technologies,description,deploy_link}:Props) =
             <img className='w-full h-full object-contain absolute top-6 sm:relative' src={`${image}`} alt={title}/>
             <div className='px-2 w-full h-full relative sm:absolute bg-[#ffffffa1] backdrop-blur-[5px] top-2 sm:space-y-3 space-y-6'>
                 <h1 className='text-5xl font-bold text-[#000000d8]'>{title}</h1>
-                <p className=''>{description}</p>
+                <p className='text-[#000000d8]'>{description}</p>
                 <div className='flex gap-2 flex-wrap'>
                     {
                         technologies.map((tech,index) => (
-                            <span key={index} className='bg-gray-100 text-gray-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300'>{tech}</span>
+                            <span key={index} className='bg-gray-400 text-[#000000d8] text-xs font-medium me-2 px-2.5 py-0.5 rounded'>{tech}</span>
                         ))
                     }
                 </div>
                 <div className='flex gap-x-3'>
                     <div className='inline-block'>
-                        <DownLoadButton text='Github repo' path='https://www.github.com/Rohit29-hub'/>
+                        <ProjectButtonGithub text='Github' link='https://www.github.com/Rohit29-hub'/>
                     </div>
                     <div className='inline-block'>
-                        <DownLoadButton text="Live demo" path={deploy_link}/>
+                        <ProjectButtonLiveDemo  text="Live demo" link={deploy_link}/>
                     </div>
                 </div>
             </div>
