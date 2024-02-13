@@ -8,7 +8,7 @@ const Contact = () => {
         <div className='w-full h-auto lg:mt-12 sm:mt-10 mt-6'>
             <SectionBanner title={"Contact"} />
             <div className='w-full h-auto mt-2 py-1'>
-                <form action={formAction} className="px-2">
+                <form action={formAction} className="px-2 lg:px-8 md:px-6 sm:px-3">
                     <div className="mb-4">
                         <label className="block text-[#000000d8] text-sm font-bold mb-2" htmlFor="name">
                             Name
