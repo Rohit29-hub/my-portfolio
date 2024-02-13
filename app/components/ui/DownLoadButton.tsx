@@ -1,18 +1,15 @@
 "use client"
-import { useRouter } from 'next/navigation';
+import Link from 'next/link'
 import React from 'react'
-
 interface Props{
     text: string;
-    path: string;
 }
 // update this
-const DownLoadButton = ({ text, path }:Props) => {
-    const router = useRouter();
+const DownLoadButton = ({ text}:Props) => {
   return (
-    <button onClick={() => router.push(path)} type='button' className='py-2 px-3 bg-[#000000d8] rounded-lg text-white'>
+    <Link target='__blank' href={'/resume.pdf'} download={'resume.pdf'} className='py-2 px-3 bg-[#000000d8] rounded-lg text-white'>
         {text}
-    </button>
+    </Link>
   )
 }
 

@@ -4,6 +4,7 @@ import instragramIcon from '@/public/instagram.svg'
 import linkedinIcon from '@/public/linkedin.svg'
 import Image from 'next/image'
 import DownLoadButton from './ui/DownLoadButton'
+import ContactButton from './ui/ContactButton'
 const Introduction = () => {
     return (
         <div className='makeContainer w-full h-auto lg:h-screen  sm:mt-10 mt-8'>
@@ -22,8 +23,8 @@ const Introduction = () => {
                         <Image src={linkedinIcon} width={40} height={40} alt='' priority />
                     </div>
                     <div className='mt-5 flex gap-x-3'>
-                        <DownLoadButton text={"Download CV"} path={"https://www.rohitkohli.com"} />
-                        <DownLoadButton text={"Contact Me"} path={"https://www.contactme.com"} />
+                        <DownLoadButton text={"Download CV"}/>
+                        <ContactButton text={"Contact Me"} path='mailto:rohitk29032005@gmail.com'/>
                     </div>
                 </div>
             </div>

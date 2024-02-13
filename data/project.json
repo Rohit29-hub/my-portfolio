@@ -24,19 +24,11 @@
         "deploy_url" : ""
     },
     {
-        "id": "34",
+        "id": "4",
         "title": "Travel Agency",
-        "description" : "The Amazon clone with full is a e-commerce platform developed using React.js, Next.js, MongoDB, Express.js, Node.js, and Tailwind CSS. It mimics the features of the Amazon website, add them to cart, make purchases, and manage their orders.",
+        "description" : "The Travel Agency website with developed using React.js, Next.js, MongoDB, Express.js, Node.js, and Tailwind CSS. It mimics the features of the Travels website, book your Trip.",
         "technologies" : ["Reactjs","Nextjs","Mongodb","Expessjs","Nodejs","Tailwindcss"],
-        "image" : "/amazonBack.png",
-        "deploy_url" : ""
-    }, {
-        "id": "38",
-        "title": "Authentication",
-        "description" : "The Amazon clone with full is a e-commerce platform developed using React.js, Next.js, MongoDB, Express.js, Node.js, and Tailwind CSS. It mimics the features of the Amazon website, add them to cart, make purchases, and manage their orders.",
-        "technologies" : ["Reactjs","Nextjs","Mongodb","Expessjs","Nodejs","Tailwindcss"],
-        "image" : "/amazonBack.png",
-        "deploy_url" : ""
+        "image" : "https://images.unsplash.com/photo-1526772662000-3f88f10405ff?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "deploy_url" : "https://travel-app-tau-two.vercel.app/"
     }
-
 ]

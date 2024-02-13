@@ -8,11 +8,10 @@ interface Props{
     description: string,
     deploy_link: string
 }
-const ProjectCard = ({image,title,technologies,description,deploy_link}:Props) => {
+const ProjectCard = ({title,technologies,description,deploy_link}:Props) => {
     return (
         <div className='h-auto flex-shrink-0 sm:h-full col-span-1 w-full border-2 border-solid py-4 border-[#000000d8] rounded-md relative overflow-hidden'>
-            <img className='w-full h-full object-contain absolute top-6 sm:relative' src={`${image}`} alt={title}/>
-            <div className='px-2 w-full h-full relative sm:absolute bg-[#ffffffa1] backdrop-blur-[5px] top-2 sm:space-y-3 space-y-6'>
+            <div className='px-2 w-full h-full relative  bg-[#ffffffa1] backdrop-blur-[20px] top-2 sm:space-y-3 space-y-6 pt-3'>
                 <h1 className='text-5xl font-bold text-[#000000d8]'>{title}</h1>
                 <p className='text-[#000000d8]'>{description}</p>
                 <div className='flex gap-2 flex-wrap'>
