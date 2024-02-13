@@ -13,25 +13,25 @@ const Contact = () => {
                         <label className="block text-[#000000d8] text-sm font-bold mb-2" htmlFor="name">
                             Name
                         </label>
-                        <input className="appearance-none border-b-2 border-gray-700 border-solid rounded w-full p-3 text-gray-700 leading-tight focus:outline focus:shadow-outline" id="name" type="text" name='username' placeholder="Enter your name" />
+                        <input className="appearance-none border-b-2 border-gray-300 border-solid rounded w-full p-3 text-gray-700 leading-tight focus:outline focus:shadow-outline" id="name" type="text" name='username' placeholder="Enter your name" />
                     </div>
                     <div className="mb-4">
                         <label className="block text-[#000000d8] text-sm font-bold mb-2" htmlFor="phone">
                             Phone Number
                         </label>
-                        <input className="appearance-none border-b-2 border-gray-700 border-solid rounded w-full p-3 text-gray-700 leading-tight focus:outline focus:shadow-outline" id="phone" type="tel" name='phone' placeholder="Enter your phone number" />
+                        <input className="appearance-none border-b-2 border-gray-300 border-solid rounded w-full p-3 text-gray-700 leading-tight focus:outline focus:shadow-outline" id="phone" type="tel" name='phone' placeholder="Enter your phone number" />
                     </div>
                     <div className="mb-4">
                         <label className="block text-[#000000d8] text-sm font-bold mb-2" htmlFor="email">
                             Email
                         </label>
-                        <input className="appearance-none border-b-2 border-gray-700 border-solid rounded w-full p-3 text-gray-700 leading-tight focus:outline focus:shadow-outline" id="email" type="email" name='email' placeholder="Enter your email" />
+                        <input className="appearance-none border-b-2 border-gray-300 border-solid rounded w-full p-3 text-gray-700 leading-tight focus:outline focus:shadow-outline" id="email" type="email" name='email' placeholder="Enter your email" />
                     </div>
                     <div className="mb-6">
                         <label className="block text-[#000000d8] text-sm font-bold mb-2" htmlFor="message">
                             Message
                         </label>
-                        <textarea className="appearance-none border-b-2 border-gray-700 border-solid rounded w-full p-3 text-gray-700 leading-tight focus:outline focus:shadow-outline" id="message" name='message' placeholder="Enter your message"></textarea>
+                        <textarea className="appearance-none border-b-2 border-gray-300 border-solid rounded w-full p-3 text-gray-700 leading-tight focus:outline focus:shadow-outline" id="message" name='message' placeholder="Enter your message"></textarea>
                     </div>
                     <div className="flex items-center justify-between">
                         <FormButton/>

@@ -1,14 +1,20 @@
 "use server"
 
-export const formAction = (e:FormData) => {
+export const  formAction = async (e:FormData) => {
     const data = {
-        username: e.get("username"),
-        phone: e.get("phone"),
-        email: e.get("email"),
-        message: e.get("message")
+        name: e.get("username")?.toString(),
+        phone: e.get("phone")?.toString(),
+        email: e.get("email")?.toString(),
+        message: e.get("message")?.toString()
     }
-    
-    console.log(data);
+
+    await fetch('https://65bbc35852189914b5bd06c6.mockapi.io/api/v1/users',{
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(data)
+    })
 
     return;
 }

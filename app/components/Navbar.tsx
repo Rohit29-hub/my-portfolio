@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import myLogo from '@/public/logo.jpeg'
+import myLogo from '@/public/logo.jpg'
 import React from 'react'
 import MenuButton from './ui/MenuButton'
 const Navbar = () => {
