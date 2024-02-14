@@ -8,7 +8,7 @@ export const  formAction = async (e:FormData) => {
         message: e.get("message")?.toString()
     }
 
-    await fetch('https://65bbc35852189914b5bd06c6.mockapi.io/api/v1/users',{
+    await fetch(process.env.API_URL!,{
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
