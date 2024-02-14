@@ -7,11 +7,11 @@ import DownLoadButton from './ui/DownLoadButton'
 import ContactButton from './ui/ContactButton'
 const Introduction = () => {
     return (
-        <div className='makeContainer w-full h-auto lg:h-screen  sm:mt-10 mt-8'>
-            <div className='relative w-full h-full'>
-                <div className='sm:absolute left-3 w-auto p-1 h-auto mt-6 sm:mt-0'>
-                    <h1 className='sm:text-[9rem] text-[4rem] font-bold text-[#000000d8]' id='greet-1'>Hii all,</h1>
-                    <h1 className='sm:text-[9rem] text-[3.5rem] sm:mt-[-3rem] font-bold text-[#000000d8]' id='greet-2'>I am Rohit <span id='hii-img' className='sm:text-[9rem] text-[3rem]'>👋</span></h1>
+        <div className='makeContainer w-full h-full lg:h-screen mt-8'>
+            <div className='relative w-full h-auto'>
+                <div className='lg:absolute left-3 w-auto p-1 h-auto mt-6 sm:mt-0 static'>
+                    <h1 className='sm:text-[6rem] lg:text-[9rem] md:text-[7.5rem] text-[4rem] font-bold text-[#000000d8]' id='greet-1'>Hii all,</h1>
+                    <h1 className='sm:text-[6rem] lg:text-[9rem] md:text-[7.5rem] text-[3.5rem] sm:mt-[-3rem] font-bold text-[#000000d8]' id='greet-2'>I am Rohit <span id='hii-img' className='sm:text-[4rem] md:text-[5rem] text-[3.5rem]'>👋</span></h1>
                     <div className='sm:w-96 md:w-[35rem] w-full h-auto mt-5'>
                         <p id='description-about-me' className='text-1xl sm:text-[19px] text-[#000000d8]'>
                             A passionate <span className='font-bold '>Full Stack Web Developer(MERN)</span>. having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Nextjs / Nodejs(Expressjs), Mongodb and some other cool libraries and frameworks.

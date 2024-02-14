@@ -28,7 +28,7 @@ const ProjectView = () => {
                     <GreaterThanButton goToNext={goToNext}/>
                 </div>
             </div>
-            <div className='makeContainer productContainer w-full h-full lg:grid sm:my-0 my-3 flex lg:grid-cols-3 gap-2 overflow-x-scroll scroll-smooth' ref={productContainer}>
+            <div className='makeContainer productContainer w-full h-full md:grid sm:my-0 my-3 flex md:grid-cols-2 lg:grid-cols-3 gap-2 overflow-x-scroll scroll-smooth' ref={productContainer}>
                 {
                     projectData.map((project) => (
                         <ProjectCard key={project.id} image={project.image} title={project.title} technologies={project.technologies} description={project.description} deploy_link={project.deploy_url} />

@@ -7,7 +7,7 @@ const Skill = () => {
     return (
         <div className='w-full h-auto lg:mt-12 sm:mt-10 mt-6'>
            <SectionBanner title={'Skills'}/>
-            <div style={{ marginTop: '3rem' }} className='w-full sm:h-[40vh] lg:h-auto makeContainer grid md:grid-cols-3 grid-cols-2 lg:grid-cols-4 sm:gap-2 gap-1'>
+            <div style={{ marginTop: '3rem' }} className='w-full h-min lg:h-auto makeContainer grid  grid-cols-2 lg:grid-cols-4 sm:gap-2 gap-1'>
                 {Array.from(skillInfo).map(([category, skills]: [string, object[]]) => (
                     <div key={category} className='col-span-1 w-full h-full border-2 border-solid border-[#000000d8] rounded-md'>
                         <div className="w-full h-min py-3">
