@@ -22,10 +22,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className}`}>
-        <Toaster position="top-center" reverseOrder={true}/>
         <Navbar />
         {children}
         <Footer />
+        <Toaster position="top-center" reverseOrder={true}/> 
       </body>
     </html>
   );

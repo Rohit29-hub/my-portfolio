@@ -4,7 +4,7 @@ import React from 'react'
 import MenuButton from './ui/MenuButton'
 const Navbar = () => {
   return (
-    <div className='w-full h-16 sticky top-0 z-[1059] backdrop-blur-[30px] flex items-center'>
+    <div className='w-full h-16 fixed top-0 left-0 right-0 z-[1059] backdrop-blur-[30px] flex items-center'>
         <div className='makeContainer w-full bg-[#ffffffb7] shadow sm:m-auto m-0 rounded-[3rem] h-12  flex justify-between p-1'>
             <div className='w-auto h-full flex gap-x-2'>
                 <div className='w-10 h-full rounded-[100%] bg-[#333333] overflow-hidden'>
